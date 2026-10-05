@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MarketHub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            Market<span>Hub</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="#">Categories</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <div class="search-box">
+                <input type="text" placeholder="Search products...">
+                <button>🔍</button>
+            </div>
+
+            <a href="cart.html" class="cart">
+                🛒
+                <span class="cart-count">0</span>
+            </a>
+
+        </div>
+
+    </header>
+
+    <section class="hero">
+
+    <div class="hero-content">
+
+        <p class="hero-tag">YOUR MARKETPLACE, YOUR CHOICE</p>
+
+        <h1>
+            Shop from
+            <span>multiple vendors</span>
+            in one place.
+        </h1>
+
+        <p class="hero-text">
+            Discover quality products from different sellers,
+            compare prices, and find exactly what you're looking for.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="shop.html" class="btn-primary">Shop Now</a>
+            <a href="#categories" class="btn-secondary">Explore Categories</a>
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <div class="hero-card card-one">
+            <span>🔥</span>
+            <div>
+                <strong>Great Deals</strong>
+                <small>Every day</small>
+            </div>
+        </div>
+
+        <div class="hero-card card-two">
+            <span>🛍️</span>
+            <div>
+                <strong>Multiple Vendors</strong>
+                <small>One marketplace</small>
+            </div>
+        </div>
+
+        <div class="hero-circle">
+            🛒
+        </div>
+
+    </div>
+
+</section>
+
+<section class="categories" id="categories">
+
+    <div class="section-heading">
+        <div>
+            <p class="section-tag">SHOP BY CATEGORY</p>
+            <h2>What are you looking for?</h2>
+        </div>
+
+        <a href="shop.html">View All →</a>
+    </div>
+
+    <div class="category-container">
+
+        <a href="shop.html" class="category-card">
+            <div class="category-icon">📱</div>
+            <h3>Electronics</h3>
+            <p>Phones, laptops & gadgets</p>
+        </a>
+
+        <a href="shop.html" class="category-card">
+            <div class="category-icon">👕</div>
+            <h3>Fashion</h3>
+            <p>Clothes, shoes & accessories</p>
+        </a>
+
+        <a href="shop.html" class="category-card">
+            <div class="category-icon">💄</div>
+            <h3>Beauty</h3>
+            <p>Skincare & cosmetics</p>
+        </a>
+
+        <a href="shop.html" class="category-card">
+            <div class="category-icon">🏠</div>
+            <h3>Home & Living</h3>
+            <p>Furniture & home essentials</p>
+        </a>
+
+        <a href="shop.html" class="category-card">
+            <div class="category-icon">🎮</div>
+            <h3>Gaming</h3>
+            <p>Games & gaming accessories</p>
+        </a>
+
+        <a href="shop.html" class="category-card">
+            <div class="category-icon">🛒</div>
+            <h3>Groceries</h3>
+            <p>Food & everyday essentials</p>
+        </a>
+
+    </div>
+
+</section>
+
+<section class="products-section">
+
+    <div class="section-heading">
+        <div>
+            <p class="section-tag">FEATURED PRODUCTS</p>
+            <h2>Popular right now</h2>
+        </div>
+
+        <a href="shop.html">View All →</a>
+    </div>
+
+
+    <div class="product-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+
+            <div class="product-image">
+                <span class="product-badge">-15%</span>
+                📱
+            </div>
+
+            <div class="product-info">
+
+                <p class="product-category">Electronics</p>
+
+                <h3>Smartphone Pro Max</h3>
+
+                <p class="vendor">
+                    Sold by <strong>TechWorld</strong>
+                </p>
+
+                <div class="product-bottom">
+                    <div>
+                        <span class="old-price">₦950,000</span>
+                        <strong class="price">₦807,500</strong>
+                    </div>
+
+                    <button class="add-cart" data-id="1">+</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 2 -->
+        <div class="product-card">
+
+            <div class="product-image">
+                🎧
+            </div>
+
+            <div class="product-info">
+
+                <p class="product-category">Electronics</p>
+
+                <h3>Wireless Headphones</h3>
+
+                <p class="vendor">
+                    Sold by <strong>SoundHub</strong>
+                </p>
+
+                <div class="product-bottom">
+                    <strong class="price">₦45,000</strong>
+
+                    <button class="add-cart" data-id="2">+</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 3 -->
+        <div class="product-card">
+
+            <div class="product-image">
+                👟
+            </div>
+
+            <div class="product-info">
+
+                <p class="product-category">Fashion</p>
+
+                <h3>Classic Running Shoes</h3>
+
+                <p class="vendor">
+                    Sold by <strong>SportZone</strong>
+                </p>
+
+                <div class="product-bottom">
+                    <strong class="price">₦65,000</strong>
+
+                    <button class="add-cart" data-id="3">+</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 4 -->
+        <div class="product-card">
+
+            <div class="product-image">
+                🎒
+            </div>
+
+            <div class="product-info">
+
+                <p class="product-category">Fashion</p>
+
+                <h3>Leather Backpack</h3>
+
+                <p class="vendor">
+                    Sold by <strong>FashionHub</strong>
+                </p>
+
+                <div class="product-bottom">
+                    <strong class="price">₦38,000</strong>
+
+                    <button class="add-cart" data-id="4">+</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= POPULAR VENDORS ================= -->
+
+<section class="vendors-section">
+
+    <div class="section-heading">
+        <div>
+            <p class="section-tag">OUR SELLERS</p>
+            <h2>Popular vendors</h2>
+        </div>
+
+        <a href="#">View All →</a>
+    </div>
+
+    <div class="vendor-grid">
+
+        <div class="vendor-card">
+            <div class="vendor-logo">T</div>
+
+            <div class="vendor-details">
+                <h3>TechWorld</h3>
+                <p>Electronics & gadgets</p>
+                <span>⭐ 4.8</span>
+            </div>
+
+            <a href="shop.html">Visit Store →</a>
+        </div>
+
+
+        <div class="vendor-card">
+            <div class="vendor-logo">F</div>
+
+            <div class="vendor-details">
+                <h3>FashionHub</h3>
+                <p>Fashion & accessories</p>
+                <span>⭐ 4.7</span>
+            </div>
+
+            <a href="shop.html">Visit Store →</a>
+        </div>
+
+
+        <div class="vendor-card">
+            <div class="vendor-logo">S</div>
+
+            <div class="vendor-details">
+                <h3>SportZone</h3>
+                <p>Sports & fitness</p>
+                <span>⭐ 4.9</span>
+            </div>
+
+            <a href="shop.html">Visit Store →</a>
+        </div>
+
+
+        <div class="vendor-card">
+            <div class="vendor-logo">B</div>
+
+            <div class="vendor-details">
+                <h3>BeautyPlus</h3>
+                <p>Beauty & skincare</p>
+                <span>⭐ 4.6</span>
+            </div>
+
+            <a href="shop.html">Visit Store →</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROMO BANNER ================= -->
+
+<section class="promo-section">
+
+    <div class="promo-content">
+
+        <p class="promo-tag">LIMITED OFFER</p>
+
+        <h2>Big deals.<br>Better prices.</h2>
+
+        <p>
+            Discover amazing products from our sellers
+            and enjoy exclusive marketplace deals.
+        </p>
+
+        <a href="shop.html" class="promo-btn">
+            Shop Deals →
+        </a>
+
+    </div>
+
+    <div class="promo-icon">
+        🛍️
+    </div>
+
+</section>
+
+
+<!-- ================= WHY MARKET HUB ================= -->
+
+<section class="benefits-section">
+
+    <div class="section-heading centered">
+
+        <div>
+            <p class="section-tag">WHY MARKET HUB?</p>
+            <h2>Shopping made easier</h2>
+        </div>
+
+    </div>
+
+
+    <div class="benefits-grid">
+
+        <div class="benefit-card">
+
+            <div class="benefit-icon">🚚</div>
+
+            <h3>Fast Delivery</h3>
+
+            <p>
+                Get your products delivered quickly
+                and conveniently.
+            </p>
+
+        </div>
+
+
+        <div class="benefit-card">
+
+            <div class="benefit-icon">🔒</div>
+
+            <h3>Secure Shopping</h3>
+
+            <p>
+                Shop with confidence through
+                a secure marketplace.
+            </p>
+
+        </div>
+
+
+        <div class="benefit-card">
+
+            <div class="benefit-icon">🏪</div>
+
+            <h3>Multiple Vendors</h3>
+
+            <p>
+                Discover products from different
+                sellers in one place.
+            </p>
+
+        </div>
+
+
+        <div class="benefit-card">
+
+            <div class="benefit-icon">💰</div>
+
+            <h3>Great Prices</h3>
+
+            <p>
+                Compare products and find
+                prices that work for you.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="logo">
+                Market<span>Hub</span>
+            </a>
+
+            <p>
+                Your marketplace for discovering
+                products from sellers you can trust.
+            </p>
+
+            <div class="social-links">
+                <a href="#">f</a>
+                <a href="#">𝕏</a>
+                <a href="#">in</a>
+                <a href="#">◎</a>
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Marketplace</h3>
+
+            <a href="shop.html">Shop</a>
+            <a href="#">Categories</a>
+            <a href="#">Featured Products</a>
+            <a href="#">Deals</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Help</h3>
+
+            <a href="#">Contact Us</a>
+            <a href="#">FAQs</a>
+            <a href="#">Shipping</a>
+            <a href="#">Returns</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>Company</h3>
+
+            <a href="#">About Us</a>
+            <a href="#">Become a Vendor</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 MarketHub. All rights reserved.
+        </p>
+
+        <p>
+            Built for a better shopping experience.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
