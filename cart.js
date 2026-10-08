@@ -17,7 +17,7 @@ cart.forEach(function(product) {
     item.innerHTML = `
         <h3>${product.name}</h3>
         <p>${product.price}</p>
-    `;
+    `;   
 
     cartItems.appendChild(item);
 
