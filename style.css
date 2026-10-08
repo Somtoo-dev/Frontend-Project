@@ -43,8 +43,6 @@ img {
 .nav-links {
     display: flex;
     gap: 30px;
-        border: 2px solid black;
-
 }
 
 .nav-links a {
