@@ -1195,21 +1195,52 @@ img {
     /* NAVBAR */
 
     .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 15px;
         padding: 15px 4%;
+        height: auto;
+    }
+
+    .logo {
+        margin-right: auto;
     }
 
     .nav-actions {
-        width: 100%;
-        justify-content: space-between;
+        display: contents;
     }
 
     .search-box {
-        width: calc(100% - 55px);
+        order: 3;
+        width: 100%;
+        display: flex;
+    }
+
+    .search-box input {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .cart {
+        order: 2;
+        flex-shrink: 0;
     }
 
     .nav-links {
+        order: 4;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-links a,
+    .category-btn {
         font-size: 14px;
     }
+
 
 
     /* HERO */
