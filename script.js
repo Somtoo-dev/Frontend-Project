@@ -11,9 +11,7 @@ addCartButtons.forEach(function(button) {
 
         const productName = productCard.querySelector("h3").textContent;
 
-        const productPrice = productCard
-            .querySelector(".price")
-            .textContent;
+        const productPrice = productCard.querySelector(".price").textContent;
 
         const product = {
             name: productName,
